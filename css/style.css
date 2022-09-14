@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Ms+Madi&family=Source+Sans+Pro:ital@1&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* font-family: 'Ms Madi', cursive;*/
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: center;
+}
+
+.intro-image {
+    background-attachment: fixed;/*parallax эффект, картинка не движется по экрану*/
+
+    background-position:  top; /* корректировка позиции картинки отномительно объекта*/
+    background-image: url('../img/img1.jpg');
+    background-size: cover;
+    height: 600px;
+    display: flex;
+    align-items: center; /* выравнивание элемента по вертикали (картинки)*/
+    justify-content: center;/* выравнивание элемента по горизонтали (картинки)*/
+}
+
+.intro-image__link a {
+    background-color: #e2cbd0a1;
+    border: 2px solid #e2cbd0d0;
+    color: #774e5a;
+    display: inline-block;
+    font-size: 2rem;
+    padding: 2rem;
+    text-decoration: none; /*отмена общего текстового форматирования для этого элемнгта*/
+    text-transform: uppercase;
+    transition: all 0.5s ease-in-out;
+    
+
+}
+
+.intro-image__link a:hover {
+    transform: scale(1.2);
+}
+
+
+
+
+.intro-text {
+    background-color:  #d0c5c4;
+    color: #8c4b55;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 250px;
+    padding:  10rem;
+
+}
+
+.intro-text__textbox h3 {
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+
+}
+
+.quality-image {
+    background-attachment: fixed;
+
+    background-image: url('../img/img2.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 450px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   /* #c4d3c9*/
+}
+
+.quality-image__link a {
+    background-color: #c4d3c9b9;
+    border: 2px solid #c4d3c9d3;
+    color: #774e5a;
+    display: inline-block;
+    font-size: 2rem;
+    padding: 2rem;
+    text-decoration: none; /*отмена общего текстового форматирования для этого элемнгта*/
+    text-transform: uppercase;
+    transition: all 0.5s ease-in-out;
+}
+
+.quality-image__link a:hover {
+    transform: scale(1.2);
+}
+
+
+.quality-text {
+    background-color:  #ccbc90;
+    color: #634347;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 250px;
+    padding:  10rem;
+
+}
+
+
+.quality-text__textbox h3 {
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+.origin-image {
+    background-attachment: fixed;
+
+    background-image: url('../img/img3.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 450px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.origin-image__link a{
+    background-color: #ecb092dc;
+    border: 2px solid #ecb092dc;
+    color: #733d2c;
+    display: inline-block;
+    font-size: 2rem;
+    padding: 2rem;
+    text-decoration: none; /*отмена общего текстового форматирования для этого элемнгта*/
+    text-transform: uppercase;
+    transition: all 0.5s ease-in-out;
+    
+
+}
+
+.origin-image__link a:hover {
+    transform: scale(1.2);
+}
+
+.origin-text {
+    background-color:  #834e3e;
+    color: #ecb092;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 250px;
+    padding:  10rem;
+
+}
+
+
+.origin-text__textbox h3 {
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+
+.footer {
+    height: 160px;
+    background-color: #70473a;
+    color: #af5f6b;
+    padding-top: 2rem;
+    font-size: 1.4rem;
+
+}
+
+.footer ul li {
+    display: inline-block;
+    margin: 1rem;
+}
+
+.footer ul li a {
+    color: #af5f6b;
+    text-decoration: none;
+}
+
+.footer ul li a:hover {
+    color: white;
+}
